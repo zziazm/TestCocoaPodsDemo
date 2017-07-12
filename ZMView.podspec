@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.author       = { "Arvin" => "1310726454@qq.com" } 
   s.platform     = :ios, "8.0" 
   s.source       = { :git => "https://github.com/zziazm/TestCocoaPodsDemo.git", :tag => s.version }
-  s.source_files = "TestCocoaPods/TestCocoaPods/ZMView/*.{h,m}" 
+  s.source_files = "TestCocoaPods/ZMView/*.{h,m}" 
   s.requires_arc = true 
 end
