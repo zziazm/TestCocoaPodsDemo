@@ -15,6 +15,7 @@
 		989FA60C1F16107A0068BA0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989FA60A1F16107A0068BA0F /* LaunchScreen.storyboard */; };
 		989FA6171F16107B0068BA0F /* TestCocoaPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 989FA6161F16107B0068BA0F /* TestCocoaPodsTests.m */; };
 		989FA6221F16107B0068BA0F /* TestCocoaPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 989FA6211F16107B0068BA0F /* TestCocoaPodsUITests.m */; };
+		989FA6321F1615400068BA0F /* ZMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 989FA6311F1615400068BA0F /* ZMView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		989FA61D1F16107B0068BA0F /* TestCocoaPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCocoaPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		989FA6211F16107B0068BA0F /* TestCocoaPodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCocoaPodsUITests.m; sourceTree = "<group>"; };
 		989FA6231F16107B0068BA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		989FA6301F1615400068BA0F /* ZMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMView.h; sourceTree = "<group>"; };
+		989FA6311F1615400068BA0F /* ZMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		989FA5FB1F16107A0068BA0F /* TestCocoaPods */ = {
 			isa = PBXGroup;
 			children = (
+				989FA62F1F1615300068BA0F /* ZMView */,
 				989FA5FF1F16107A0068BA0F /* AppDelegate.h */,
 				989FA6001F16107A0068BA0F /* AppDelegate.m */,
 				989FA6021F16107A0068BA0F /* ViewController.h */,
@@ -138,6 +142,15 @@
 				989FA6231F16107B0068BA0F /* Info.plist */,
 			);
 			path = TestCocoaPodsUITests;
+			sourceTree = "<group>";
+		};
+		989FA62F1F1615300068BA0F /* ZMView */ = {
+			isa = PBXGroup;
+			children = (
+				989FA6301F1615400068BA0F /* ZMView.h */,
+				989FA6311F1615400068BA0F /* ZMView.m */,
+			);
+			path = ZMView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				989FA6041F16107A0068BA0F /* ViewController.m in Sources */,
+				989FA6321F1615400068BA0F /* ZMView.m in Sources */,
 				989FA6011F16107A0068BA0F /* AppDelegate.m in Sources */,
 				989FA5FE1F16107A0068BA0F /* main.m in Sources */,
 			);
